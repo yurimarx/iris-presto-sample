@@ -1,5 +1,4 @@
 # from the project https://github.com/caretdev/presto-iris
-version: '3'
 services:
   iris:
     image: intersystemsdc/iris-community
