@@ -3,8 +3,8 @@ services:
   iris:
     image: intersystemsdc/iris-community
     ports:
-      - 1972
-      - 52773
+      - 41773:1972
+      - 42773:52773
     environment:
       IRIS_USERNAME: _SYSTEM
       IRIS_PASSWORD: SYS
